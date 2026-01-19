@@ -8,7 +8,7 @@ print("Highest temperature:", highest_temp, "°C")
 print("Lowest temperature:", lowest_temp, "°C")
 
 # Calculate the average temperature
-average_temp = sum(antarctic_temperatures)/len(antarctic_temperatures) ### Insert code here
+average_temp = round(sum(antarctic_temperatures)/len(antarctic_temperatures),1) ### Insert code here
 print("Average temperature:", average_temp, "°C")
 
 # Find the absolute value of the coldest temperature

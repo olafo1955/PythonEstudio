@@ -2,7 +2,7 @@ int_value = 15
 float_value = 4.1
 text_value = "33"
 
-type_of_float_value = float(float_value)
+type_of_float_value = type(float_value)
 
 # Convert text_value to an integer
 text_value_as_int =int(text_value)
