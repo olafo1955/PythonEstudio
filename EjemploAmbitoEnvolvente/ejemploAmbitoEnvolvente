@@ -1,0 +1,9 @@
+# 
+def externa_funcion():
+    externa_var = "Hola desde la externa funcion!"
+    def interna_funcion():
+        print(externa_var)  # Accessible desde el alcance envolvente
+    interna_funcion()
+externa_funcion()
+# Dos Funciones, la externa es  externa_funcion 
+# y la interna interna_funcion
